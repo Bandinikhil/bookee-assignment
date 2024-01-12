@@ -1,6 +1,68 @@
-# Getting Started with Create React App
+# Bookee Assignment - Project Setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots
+<br/>
+
+![Screenshot (261)](https://github.com/Bandinikhil/bookee-assignment/assets/105233916/89bdb033-7f03-4237-8f6b-d14d986879b7)
+<br/>
+
+
+## Backend Setup
+
+### Step 1: Clone the Backend Repository
+git clone https://github.com/bookeeapp/react-assignment
+
+
+### Step 2: Install Backend Dependencies
+npm install
+
+
+### Step 3: Start the Backend Server
+npm start
+
+
+### If `npm start` gives an error, you can use:
+npx nodemon --exec babel-node ./api/server.js
+
+
+**Requirements:**
+- Node.js (recommended v. >=9)
+- NPM v. >=5
+
+The API server runs at [http://localhost:8080](http://localhost:8080).
+
+## Frontend Setup
+
+### Step 5: Clone the Frontend Repository
+git clone https://github.com/bookeeapp/react-assignment
+
+### Step 6: Install Frontend Dependencies
+npm install
+
+### Step 7: Start the Frontend Application
+npm start
+
+
+This will open the application in [http://localhost:3000](http://localhost:3000).
+
+**Note:** Make sure the backend server is running before starting the frontend.
+
+## Troubleshooting
+
+If you encounter issues, feel free to contact our support team at support@bookeeapp.com.
+
+## Contributing
+
+Contributions are welcome! Please follow our [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
 
 ## Available Scripts
 
