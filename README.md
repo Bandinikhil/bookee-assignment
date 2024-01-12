@@ -7,7 +7,7 @@
 <br/>
 
 
-## Backend Setup
+## Backend Setup for the API Server to run
 
 ### Step 1: Clone the Backend Repository
 git clone https://github.com/bookeeapp/react-assignment
