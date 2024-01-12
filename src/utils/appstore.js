@@ -1,12 +1,11 @@
-import shiftsSlice from "./shiftsSlice"; 
+import shiftsSlice from "./shiftsSlice";
 
 import { configureStore } from "@reduxjs/toolkit";
 
-
 const store = configureStore({
-    reducer: {
-        shiftslist : shiftsSlice,
-    }
-})
+  reducer: {
+    shiftslist: shiftsSlice
+  }
+});
 
 export default store;

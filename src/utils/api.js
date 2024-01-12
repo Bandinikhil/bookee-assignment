@@ -1,9 +1,9 @@
 // api.js
 import axios from 'axios';
 
-const BASE_URL = 'http://127.0.0.1:8080'; // Replace with your actual API URL
+const BASE_URL = 'http://127.0.0.1:8080'; 
 
-// export const getShifts = () => axios.get(`${BASE_URL}/shifts`);
+
 
 export const getAllShifts = async ()=> {
     try {
@@ -31,12 +31,6 @@ export const getAllShifts = async ()=> {
   
   
   
-  
-
-
-
-
-
   //Post requests Promises are pending they are not getting resolved
 
   // export const bookShift = async (shiftId) => {
